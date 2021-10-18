@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("collegebg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+social img{
+  opacity:0.5;
+}
+.social img:hover {
+  opacity:1;
+  background-color:black;
+}
+
+img {
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1.0;
 }
